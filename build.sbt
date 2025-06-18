@@ -7,7 +7,7 @@ scalaVersion := "2.13.12"
 resolvers += Resolver.mavenCentral
 
 libraryDependencies ++= Seq(
-  "io.cucumber" %% "cucumber-scala" % "8.11.0" % Test, // Should be % Test
+  "io.cucumber" %% "cucumber-scala" % "8.14.0" % Test, // Should be % Test
   "io.cucumber" % "cucumber-junit" % "7.23.0" % Test,
   "org.seleniumhq.selenium" % "selenium-java" % "4.33.0",
   "org.scalatest" %% "scalatest" % "3.2.19" % Test,
